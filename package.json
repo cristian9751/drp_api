@@ -1,0 +1,43 @@
+{
+  "name": "daynightapi",
+  "version": "0.0.1",
+  "description": "DaynightRP API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian9751/drp_api.git"
+  },
+  "keywords": [
+    "ragemp",
+    "fivem",
+    "roleplay",
+    "gta",
+    "gta5",
+    "videogames",
+    "daynight",
+    "daynightRP"
+  ],
+  "author": "Cristian Popica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristian9751/drp_api/issues"
+  },
+  "homepage": "https://github.com/cristian9751/drp_api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "mongose": "^0.0.2-security",
+    "mysql": "^2.18.1",
+    "mysql-error-keys": "^0.1.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
